@@ -11,3 +11,4 @@ class Procesador:
         self.alu = Alu() 
 
     
+    
