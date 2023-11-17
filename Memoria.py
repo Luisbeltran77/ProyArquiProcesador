@@ -1,7 +1,7 @@
 class Memoria:
-    def __init__(self, instrucciones, dato):
-        self.intrucciones = instrucciones
-        self.dato = dato
+    def __init__(self, listInstrucciones, listDato):
+        self.listInstrucciones = listInstrucciones
+        self.listDato = listDato
 
     def leer_archivo(nombre_archivo):
         try:
@@ -12,3 +12,4 @@ class Memoria:
             print(f"El archivo {nombre_archivo} no existe.")
             return None
     url = leer_archivo("nombre.txt")
+    
